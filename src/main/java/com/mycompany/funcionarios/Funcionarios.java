@@ -46,7 +46,8 @@ public class Funcionarios {
                         break;
                         
                     case 3: 
-                        System.out.println("3");
+                        System.out.println("Qual funcionário deseja remover?");
+                        funcionario.remove(s.nextLine());
                         break;
                         
                     default: 
